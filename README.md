@@ -3,7 +3,8 @@
 
 > Orders are down 47.5% year over year. **Where is the loss concentrated, is it a product, speed or reach problem, and how can leadership track it every Monday without anyone building the report by hand?**
 ![Dashboard](assets/DashBoard.png)
-
+**Project resources:** [Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjQ2ZTZkMGMtMzVlZi00MTYzLThiNGMtYjhmZDM3ZGZiYjIzIiwidCI6ImI2YTZhZWM2LTc5OTktNDhhYS04YTVlLWYwN2JlMjEzZGJlYyJ9) | [PDF Project Report](docs/geopulse_project_report.pdf) | [Project Design Plan](docs/project_blueprint.md)
+> 
 ---
 
 ## Executive Summary
