@@ -71,8 +71,8 @@ TacoGo Delivery is a multi-restaurant taco delivery business operating across te
 | Revenue Analysis Report | Tips trend, revenue by month, restaurant-level YoY table |
 | Performance Overview Report | Delivery duration by city, orders by taco size, restaurant YoY table |
 | Recommendation Report | Full 1,000-order view with overall insight and priority actions |
-![GeoPulse Report Collage](assets/GeoPulse_Report_Collage.png)
 
+![GeoPulse Report Collage](assets/GeoPulse_Report_Collage.png)
 ---
 
 ## Key Findings
