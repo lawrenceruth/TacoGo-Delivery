@@ -50,9 +50,6 @@ TacoGo Delivery is a multi-restaurant taco delivery business operating across te
 
 ## Data Overview
 
-**Model:** star schema in Power BI, 1,000 order records dated January 2024 to December 2025.
-![Schema Preview](assets/Schema.PNG)
-
 | Table | Grain | Key fields |
 |---|---|---|
 | `FactOrders` | One row per order (1,000 rows) | Order Date, Delivery Date, Delivery Duration (min), Distance (km), Price ($), Tip ($), Toppings Count, Weekend Order |
@@ -60,8 +57,10 @@ TacoGo Delivery is a multi-restaurant taco delivery business operating across te
 | `DimTaco` | One row per taco | Taco ID, Taco Type, Taco Size |
 | `Dim Date` | One row per date | Date, Month Name, Month Number, Year |
 
-
 ![Data Preview](assets/Data_Previews.PNG)
+
+**Model:** star schema in Power BI, 1,000 order records dated January 2024 to December 2025.
+![Schema Preview](assets/Schema.PNG)
 
 **Report pages**
 
@@ -159,15 +158,11 @@ Revenue (2025) with YoY change by restaurant:
 
 ---
 
-## Tools
-
-* Microsoft Power BI Desktop ( For data upload and analysis )
-* Power Query ( For data cleaning and validation)
-* Model ( For Data Relationship development and management)
+**Tools:** Power BI (data model, DAX, report design), Power Automate (scheduled weekly flow), PDF export.
 
 ## Project Resources
 
-- **Live Dashboard:** [View the live Reports]([assets/Excel_WorkBook.xlsx](https://app.powerbi.com/view?r=eyJrIjoiZDM0ZDJkMmMtYjQ5Ni00ZDA1LThjZTUtN2ZjNTYwYjNmMGJlIiwidCI6ImI2YTZhZWM2LTc5OTktNDhhYS04YTVlLWYwN2JlMjEzZGJlYyJ9))
+- **Live Dashboard:** [View the live Reports](https://app.powerbi.com/view?r=eyJrIjoiNjQ2ZTZkMGMtMzVlZi00MTYzLThiNGMtYjhmZDM3ZGZiYjIzIiwidCI6ImI2YTZhZWM2LTc5OTktNDhhYS04YTVlLWYwN2JlMjEzZGJlYyJ9)
 - **Project Report:** [Project Insights and Recommedation](docs/insights_recommendation.md)
 - **Project Brief:** [Read the project brief](docs/project_brief.md)
   
@@ -176,19 +171,6 @@ Revenue (2025) with YoY change by restaurant:
 
 Lawrence Ruth: lawrenceruth34@gmail.com · [LinkedIn](https://www.linkedin.com/in/ruth-lawrence-8519073b7) · [GitHub](https://github.com/lawrenceruth)
 
-*DataCo Global: Sales & Customer Intelligence is a portfolio project for learning and demonstration from LeadHer Foundation Instistute. Its results should not be read as commercial evidence.*
+*TacoGo Delivery Report is a portfolio project for learning and demonstration from LeadHer Foundation Instistute. Its results should not be read as commercial evidence.*
 
-## Repository Structure
 
-```
-tacogo-delivery-bi/
-├── README.md
-├── report/                  # Power BI file (.pbix)
-├── automation/              # Power Automate workflow screenshot and flow description
-├── outputs/                 # PDF of the weekly email report
-├── images/                  # Dashboard page screenshots used in this README
-└── docs/
-    └── dashboard_walkthrough.md   # Page-by-page insights, data dictionary, validation log
-```
-
-**Tools:** Power BI (data model, DAX, report design), Power Automate (scheduled weekly flow), PDF export.
