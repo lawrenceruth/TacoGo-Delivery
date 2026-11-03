@@ -159,6 +159,25 @@ Revenue (2025) with YoY change by restaurant:
 
 ---
 
+## Tools
+
+* Microsoft Power BI Desktop ( For data upload and analysis )
+* Power Query ( For data cleaning and validation)
+* Model ( For Data Relationship development and management)
+
+## Project Resources
+
+- **Live Dashboard:** [View the live Reports]([assets/Excel_WorkBook.xlsx](https://app.powerbi.com/view?r=eyJrIjoiZDM0ZDJkMmMtYjQ5Ni00ZDA1LThjZTUtN2ZjNTYwYjNmMGJlIiwidCI6ImI2YTZhZWM2LTc5OTktNDhhYS04YTVlLWYwN2JlMjEzZGJlYyJ9))
+- **Project Report:** [Project Insights and Recommedation](docs/insights_recommendation.md)
+- **Project Brief:** [Read the project brief](docs/project_brief.md)
+  
+
+## Contact
+
+Lawrence Ruth: lawrenceruth34@gmail.com · [LinkedIn](https://www.linkedin.com/in/ruth-lawrence-8519073b7) · [GitHub](https://github.com/lawrenceruth)
+
+*DataCo Global: Sales & Customer Intelligence is a portfolio project for learning and demonstration from LeadHer Foundation Instistute. Its results should not be read as commercial evidence.*
+
 ## Repository Structure
 
 ```
